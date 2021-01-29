@@ -1,16 +1,16 @@
 var letters = [];
 var word = 'racecar';
-var rev_word = '';
+var reverseWord = '';
 
 for (var i = 0; i < word.length; i++){
   letters.push(word[i]);
 }
 
 for (var i = 0; i < word.length; i++){
-  rev_word += letters.pop();
+  reverseWord += letters.pop();
 }
 
-if (word === rev_word){
+if (word === reverseWord){
   console.log(word + ' is a palindrome.');
 }
 
